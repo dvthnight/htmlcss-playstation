@@ -16,3 +16,12 @@ figure{
 .logo_sony:hover{
     cursor: pointer;
 }
+
+
+.bottone-pillola{
+    border-radius: 9999999px;
+}
+
+.lente{
+    width: 30px;
+}
