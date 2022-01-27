@@ -1,0 +1,18 @@
+img{
+    max-width: 100%;
+}
+
+
+
+figure{
+    margin-bottom: 0;
+}
+
+
+.marchio{
+    min-height: 45px;
+}
+
+.logo_sony:hover{
+    cursor: pointer;
+}
