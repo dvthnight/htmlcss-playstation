@@ -13,6 +13,10 @@ figure{
     min-height: 45px;
 }
 
+.logo_sony{
+    width: 70px;
+}
+
 .logo_sony:hover{
     cursor: pointer;
 }
@@ -24,4 +28,40 @@ figure{
 
 .lente{
     width: 30px;
+}
+
+.contenitore_bottone:focus, .contenitore_bottone:hover{
+    background-color: white;
+}
+
+.icona_dropdown{
+    width: 90px;
+}
+
+.bottone_icona_dropdown:hover{
+    border: 2px solid lightgrey;
+    padding: 10px 20px;
+    transition: 2ms;
+}
+
+/* main */
+
+.game{
+    background-image: url(img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 590px;
+}
+
+.container_game{
+    height: 590px;
+}
+
+.riga_logo_gioco{
+    height: 50%;
+}
+
+.img_logo_gioco{
+    width: 200px;
+    margin-left: -9px;
 }

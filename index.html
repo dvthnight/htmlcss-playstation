@@ -12,9 +12,9 @@
 <body>
     <header>
         <section class="sezione_marchio bg-dark">
-            <div class="container ">
+            <div class="container-fluid ">
                 <div class="row justify-content-end align-items-center marchio">
-                    <div class="col-1">
+                    <div class="col-1 d-flex justify-content-center">
                         <figure class="logo_sony">
                             <img src="img/sony_logo.svg" alt="">
                         </figure>
@@ -42,7 +42,16 @@
                             Giochi
                             </a>
                             <ul class="dropdown-menu vw-100" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li>
+                                    <div class="contenitore_bottone dropdown-item d-flex justify-content-center">
+                                        <button class="btn bottone_icona_dropdown" href="#">
+                                            <figure class="icona_dropdown">
+                                                <img  src="img/play-menu-ico.png" alt="">
+                                            </figure>
+                                        </button>
+                                    </div>
+                                    
+                            </li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -127,6 +136,8 @@
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
+                            
+                            <!-- button nav -->
     
                             <li class="nav-item">
                                 <button class="btn btn-dark bottone-pillola">Accedi</button>
@@ -146,6 +157,27 @@
               </nav>
         </section>
     </header>
+
+    <main>
+        <section class="game">
+            <div class="container container_game">
+                <div class="row riga_logo_gioco align-items-end">
+                    <div class="col-4 mb-4">
+                        <figure class="img_logo_gioco">
+                            <img src="img/returnal-hero-banner-logo.png" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="row align-items-end riga_sezione_game">
+                    <div class="col-4 text-white mb-5">
+                        <h2 class="text-uppercase">Rompi il cerchio</h2>
+                        <p class="mt-4">Rialzati dopo ogni scontita e affronta una nuova sfida con ogni rinacita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5. </p>
+                        <button class="btn btn-danger bottone-pillola mt-4">Acquista ora</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
 
