@@ -47,21 +47,29 @@ figure{
 /* main */
 
 .game{
-    background-image: url(img/jumbo-bg.png);
+
     background-size: cover;
     background-position: center;
     min-height: 590px;
 }
 
-.container_game{
-    height: 590px;
+.riga_sezione_game{
+    min-height: 590px;
 }
 
-.riga_logo_gioco{
-    height: 50%;
-}
+
 
 .img_logo_gioco{
     width: 200px;
     margin-left: -9px;
+}
+
+
+
+.game_returnal{
+    background-image: url(img/jumbo-bg.png);
+}
+
+.game_takestwo{
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
 }
