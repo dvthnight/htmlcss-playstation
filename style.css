@@ -83,16 +83,18 @@ header{
 .card_game{
     border-radius: 15px;
     overflow: hidden;
-    
+    border: 4px solid transparent;
+    transition: all 0.1s ease-in-out;
 }
 
-.card_game.active{
+.card_game.active, .card_game:hover{
     border: 4px solid var(--bs-blue);
     box-shadow: inset 0 0 2px white;
     outline: 4px solid white;
     outline-offset: -8px;
 }
 
-.card_game img{
-    border-radius: 15px;
+
+.col_card_game:hover .card_game{
+    transform: translateY(-20px) ;
 }
