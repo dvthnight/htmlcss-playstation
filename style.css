@@ -98,3 +98,46 @@ header{
 .col_card_game:hover .card_game{
     transform: translateY(-20px) ;
 }
+
+.img_card_play5{
+    max-width: 100px;
+}
+
+.card_play5_active::after{
+    content: "";
+    display: block;
+    border: 1px solid var(--bs-blue);
+    width: 150px;
+    margin-top: 10px;
+}
+
+.card_play5{
+    position: relative;
+}
+
+.card_play5::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    opacity: 0.5;
+}
+
+
+.card_play5:hover.card_play5::after{
+    opacity: 0;
+
+}
+
+
+.card_play5:hover, .card_play5_active:hover{
+    transform: translateY(-20px);
+}
+
+.card_play5, .card_play5_active{
+    transition: all 0.1s ease-in-out;
+}
