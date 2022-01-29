@@ -141,3 +141,8 @@ header{
 .card_play5, .card_play5_active{
     transition: all 0.1s ease-in-out;
 }
+
+.img_card_nuove_uscite{
+    border-radius: 30px;
+    overflow: hidden;
+}
