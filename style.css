@@ -146,3 +146,16 @@ header{
     border-radius: 30px;
     overflow: hidden;
 }
+
+.logo_plus{
+    max-width: 340px;
+}
+
+.background_gray{
+    background-color: rgb(178, 177, 176);
+}
+
+
+.bakg_btn_gray{
+    background-color: rgb(213, 213, 215);
+}
