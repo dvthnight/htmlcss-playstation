@@ -13,7 +13,9 @@ header{
     display: contents;
 }
 
-
+li{
+    list-style: none;
+}
 
 .marchio{
     min-height: 45px;
@@ -162,4 +164,20 @@ header{
 
 .background_bludark{
     background-color: rgb(22, 27, 50);
+}
+
+.background_bluchiaro{
+    background-color: rgb(7, 61, 140);
+}
+
+.logo_footer img{
+    width: 100%;
+}
+
+.logo_footer{
+    max-width: 100px;
+}
+
+.sie_logo{
+    max-width: 200px;
 }
