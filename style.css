@@ -17,6 +17,8 @@ li{
     list-style: none;
 }
 
+
+
 .marchio{
     min-height: 45px;
 }
@@ -43,13 +45,50 @@ li{
 }
 
 .icona_dropdown{
-    width: 90px;
+    max-width: 90px;
+   
 }
+/* .bottone_icona_dropdown{
+    padding: 10px 50px;
+} */
 
 .bottone_icona_dropdown:hover{
-    border: 2px solid lightgrey;
-    padding: 10px 20px;
+    border: 1px solid lightgrey;
+    
+    box-shadow: 3px 3px 2px 0 rgba(0, 0, 0, 0.1);
     transition: 2ms;
+}
+
+.lista_nav_dropdown li{
+    padding: 0 15px;
+}
+
+.lista_nav_dropdown li::before{
+    content: "\2022";
+    color: var(--bs-blue);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    scale: 1.9;
+    padding-bottom: 2px;
+}
+
+.lista_nav_dropdown a{
+    text-decoration: none;
+    color: black;
+}
+
+.lista_nav_dropdown a:hover{
+    color: var(--bs-blue);
+}
+
+.titolo_card_dropdown{
+    font-size: 15px;
+}
+
+
+.lista_nav_dropdown:hover, .lista_nav_dropdown:focus{
+    background-color: white;
 }
 
 /* main */
