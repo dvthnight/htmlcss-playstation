@@ -184,12 +184,25 @@ li{
 }
 
 .img_card_nuove_uscite{
-    border-radius: 30px;
+    border-radius: 20px;
     overflow: hidden;
+}
+
+.img_card_nuove_uscite:hover, .img_nuovi_sconti:hover, .img_social:hover {
+    scale: 1.05;
+    cursor: pointer;
 }
 
 .logo_plus, .logo_now{
     max-width: 340px;
+}
+
+.img_card_nuove_uscite:hover, .img_social:hover{
+    transition: all 0.2s ease-in-out;
+}
+
+.img_nuovi_sconti:hover{
+ transition: all 0.3s ease-in-out;
 }
 
 .background_gray{
@@ -219,4 +232,13 @@ li{
 
 .sie_logo{
     max-width: 200px;
+}
+
+.link_footer{
+    color: white;
+    text-decoration: none;
+}
+
+.link_footer:hover{
+    color: white;
 }
